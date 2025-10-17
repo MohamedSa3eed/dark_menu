@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-#       .S_sSSs     .S_SSSs     .S_sSSs     .S    S.          .S_SsS_S.     sSSs   .S_sSSs     .S       S.   
+#        .S_sSSs     .S_SSSs     .S_sSSs     .S    S.          .S_SsS_S.     sSSs   .S_sSSs     .S       S.   
 #       .SS~YS%%b   .SS~SSSSS   .SS~YS%%b   .SS    SS.        .SS~S*S~SS.   d%%SP  .SS~YS%%b   .SS       SS.  
 #       S%S   `S%b  S%S   SSSS  S%S   `S%b  S%S    S&S        S%S `Y' S%S  d%S'    S%S   `S%b  S%S       S%S  
 #       S%S    S%S  S%S    S%S  S%S    S%S  S%S    d*S        S%S     S%S  S%S     S%S    S%S  S%S       S%S  
