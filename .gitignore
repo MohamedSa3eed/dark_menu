@@ -1,0 +1,22 @@
+# Logs and temp
+*.log
+/tmp
+/.cache
+
+# Build artifacts
+dist/
+build/
+
+# Secrets
+*.pem
+*.key
+.env
+
+# Editor files
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
