@@ -22,7 +22,7 @@
 RED="\e[31m"; GREEN="\e[32m"; BLUE="\e[34m"; YELLOW="\e[33m"; VIO="\e[35m"; CYAN="\e[36m"; WHITE="\e[0m"
 
 # ─────────────────────────────
-# Colors
+# Logo
 # ─────────────────────────────
 logo () { 
   echo -e $GREEN
@@ -40,19 +40,20 @@ EOF
 # Menu options
 # ─────────────────────────────
 options=(
-  "Network Scanning"
+  "Recon & Scanning"
   "Exploitation Tools"
   "Post-Exploitation"
   "Exit"
 )
 while true; do
   clear;logo;
+  echo -e $BLUE
   PS3="Choose an option: ";export PS3;
   select option in "${options[@]}"
   do 
     case $option in
-      'Network Scanning')
-        echo Reconn
+      'Recon & Scanning')
+        ./menus/recon_scanning.sh
         break
         ;;
       'Exploitation Tools')
