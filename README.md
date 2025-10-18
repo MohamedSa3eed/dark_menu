@@ -25,7 +25,7 @@ wafw00f
 
 ## Installation
 ```
-cp dark_menu.sh menus/ /usr/local/bin/dark_menu
+cp dark_menu.sh menus/ /usr/local/bin/
 ```
 
 ## Usage
