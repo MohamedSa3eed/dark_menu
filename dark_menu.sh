@@ -57,11 +57,11 @@ while true; do
         break
         ;;
       'Exploitation Tools')
-        echo Attack
+        ./menus/exploitation_tools.sh
         break
         ;;
       'POST-Exploitation')
-        echo Attack
+        #TODO
         break
         ;;
       Exit)
