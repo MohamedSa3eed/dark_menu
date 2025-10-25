@@ -1,7 +1,7 @@
 # dark_menu — simple Bash pentesting toolkit
 A lightweight, extensible Bash menu system to help you organize common penetration-testing tasks (recon, web exploitation, post-exploitation).
 Designed for learning and quick interactive workflows on your local machine. Scripts are small, self-contained, and easy to extend.
-
+![assets/demo.png]()
 ## What this project includes
 ```bash
 dark_menu/
