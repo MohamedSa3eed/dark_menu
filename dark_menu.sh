@@ -53,8 +53,7 @@ trap 'printf "%b\nExiting...%b\n" "$YELLOW" "$WHITE"; exit 0' SIGINT SIGTERM
 while true; do
   clear
   logo
-  printf "%b" "$VIO"
-  echo "==== Main Menu ===="
+  printf "%b==== Main Menu ====%b\n" "$VIO" "$WHITE"
   PS3="Choose an option: "
   select opt in "${options[@]}"; do
     case "$opt" in
